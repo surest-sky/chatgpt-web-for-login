@@ -18,7 +18,7 @@ const chatProcess = async (req, res) => {
             lastContext: options,
             process: (chat: ChatMessage) => {
                 res.write(firstChunk ? JSON.stringify(chat) : `\n${JSON.stringify(chat)}`)
-                ChatProcessPipe(prompt, chat, req['user'] as JwtUser)
+                ChatProcessPipe(prompt, chat, req['user'] as JwtUser, options.parentMessageId)
                 firstChunk = false
             },
             systemMessage,

@@ -39,6 +39,7 @@
     "md5": "^2.3.0",
     "node-fetch": "^3.3.0",
     "nodemailer": "^6.9.1",
+    "mysql": "^2.18.1",
     "redis": "^4.6.5",
     "socks-proxy-agent": "^7.0.0",
     "validatorjs": "^3.22.1"

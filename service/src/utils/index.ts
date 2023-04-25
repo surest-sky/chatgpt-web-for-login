@@ -37,7 +37,7 @@ export function generateRandomIntString(length: number): number {
         const j = Math.floor(Math.random() * (i + 1));
         [arr[i], arr[j]] = [arr[j], arr[i]];
     }
-    return parseInt(arr.join(''))
+    return parseInt(arr.join('').padStart(length, '0'));
 }
 
 // 将日志以时间进行切割输出到文件中
