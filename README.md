@@ -58,7 +58,9 @@ https://github.com/surest-sky/chatgpt-web-for-login/blob/main/docs/install.sql
 
 #### 邮箱配置 
 
-> 这里使用的是 腾讯企业邮
+> MAIL_PASSWORD 为 授权码
+
+>  腾讯企业邮
 
 		MAIL_FORM=chenf@surest.cn
 		MAIL_DRIVER=smtp
@@ -66,5 +68,16 @@ https://github.com/surest-sky/chatgpt-web-for-login/blob/main/docs/install.sql
 		MAIL_PORT=465
 		MAIL_USERNAME=chenf@surest.cn
 		MAIL_PASSWORD=zE****gBsyg
+		MAIL_SECURE=ssl
+		
+> QQ 邮
+
+		# https://wx.mail.qq.com/list/readtemplate?name=app_intro.html#/agreement/authorizationCode
+		MAIL_FORM=1562135624@qq.com
+		MAIL_DRIVER=smtp
+		MAIL_HOST=smtp.qq.com
+		MAIL_PORT=465
+		MAIL_USERNAME=1562135624@qq.com
+		MAIL_PASSWORD=vghvfmqpvrnzfgag
 		MAIL_SECURE=ssl
 
