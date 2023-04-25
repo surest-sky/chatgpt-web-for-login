@@ -53,3 +53,18 @@ https://github.com/surest-sky/chatgpt-web-for-login/blob/main/docs/install.sql
 		DB_DATABASE=
 		DB_USERNAME=
 		DB_PASSWORD=
+
+### 其他常见问题
+
+#### 邮箱配置 
+
+> 这里使用的是 腾讯企业邮
+
+		MAIL_FORM=chenf@surest.cn
+		MAIL_DRIVER=smtp
+		MAIL_HOST=smtp.exmail.qq.com
+		MAIL_PORT=465
+		MAIL_USERNAME=chenf@surest.cn
+		MAIL_PASSWORD=zE****gBsyg
+		MAIL_SECURE=ssl
+
